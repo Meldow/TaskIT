@@ -2,7 +2,7 @@
 {
     using portal.Models.Business;
 
-    public class TaskGetOutputViewModel
+    public class TaskGetOutputViewModel : OutputViewModel
     {
         public string Id { get; set; }
 

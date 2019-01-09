@@ -1,6 +1,6 @@
-﻿namespace portal.Services.Data
+﻿namespace portal.Services.Repository
 {
-    using portal.Models.Data;
+    using portal.Models.Repository;
     using portal.Support;
 
     public interface ITaskRepository : ICRUDService<Task>

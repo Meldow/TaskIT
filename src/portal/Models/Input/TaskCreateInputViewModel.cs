@@ -1,6 +1,6 @@
 ﻿namespace portal.Models.Input
 {
-    public class TaskCreateInputViewModel
+    public class TaskCreateInputViewModel : InputModel
     {
         public string Name { get; set; }
 

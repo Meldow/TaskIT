@@ -1,6 +1,6 @@
-﻿namespace portal.Models.Data
+﻿namespace portal.Models.Repository
 {
-    public class Task
+    public class Task : IDataModel
     {
         public string Id { get; set; }
 

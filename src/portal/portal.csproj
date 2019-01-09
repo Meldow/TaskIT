@@ -20,6 +20,42 @@
     <None Include="$(SpaRoot)**" Exclude="$(SpaRoot)node_modules\**" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\.gitignore" />
+    <None Include="wwwroot\.gitignore" />
+    <None Include="wwwroot\package-lock.json" />
+    <None Include="wwwroot\package.json" />
+    <None Include="wwwroot\public\favicon.ico" />
+    <None Include="wwwroot\public\favicon.ico" />
+    <None Include="wwwroot\public\index.html" />
+    <None Include="wwwroot\public\index.html" />
+    <None Include="wwwroot\public\manifest.json" />
+    <None Include="wwwroot\README.md" />
+    <None Include="wwwroot\README.md" />
+    <None Include="wwwroot\src\App.js" />
+    <None Include="wwwroot\src\App.js" />
+    <None Include="wwwroot\src\App.test.js" />
+    <None Include="wwwroot\src\App.test.js" />
+    <None Include="wwwroot\src\components\Counter.js" />
+    <None Include="wwwroot\src\components\Counter.js" />
+    <None Include="wwwroot\src\components\FetchData.js" />
+    <None Include="wwwroot\src\components\FetchData.js" />
+    <None Include="wwwroot\src\components\Home.js" />
+    <None Include="wwwroot\src\components\Home.js" />
+    <None Include="wwwroot\src\components\Layout.js" />
+    <None Include="wwwroot\src\components\Layout.js" />
+    <None Include="wwwroot\src\components\NavMenu.css" />
+    <None Include="wwwroot\src\components\NavMenu.css" />
+    <None Include="wwwroot\src\components\NavMenu.js" />
+    <None Include="wwwroot\src\components\NavMenu.js" />
+    <None Include="wwwroot\src\index.css" />
+    <None Include="wwwroot\src\index.css" />
+    <None Include="wwwroot\src\index.js" />
+    <None Include="wwwroot\src\index.js" />
+    <None Include="wwwroot\src\registerServiceWorker.js" />
+    <None Include="wwwroot\src\registerServiceWorker.js" />
+  </ItemGroup>
+
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
     <!-- Ensure Node.js is installed -->
     <Exec Command="node --version" ContinueOnError="true">

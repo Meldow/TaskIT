@@ -1,6 +1,10 @@
 ﻿namespace portal.Models.Mappers
 {
-    public interface ITaskMapper 
+    using portal.Support;
+    using BusinessModel = Business.Task;
+    using RepositoryModel = Repository.Task;
+
+    public interface ITaskMapper : IMapper<RepositoryModel, BusinessModel>, IMapper<BusinessModel, RepositoryModel>
     {
     }
 }

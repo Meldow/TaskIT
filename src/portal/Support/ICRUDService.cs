@@ -6,7 +6,7 @@
 
         T Create(T model);
 
-        T Delete(string id);
+        void Delete(string id);
 
         T Update(T model);
     }
